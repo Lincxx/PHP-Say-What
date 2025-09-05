@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-   <h2>Lessons</h2>
-   <ul>
-    <li><a href="PHP-Say-What/008-constants.php">008 Constants</a></li>
-   </ul>
+
+    <?php 
+        // Scalar types (contains a single value)
+        $string = 'John'; // default  ""
+        $int = 123;       // default  0
+        $float = 2.5678;  // default  0
+        $bool = true;     // default  false
+ 
+        // Array types (contains multiple values)
+        $names = array('John', 'Jane', 'Joe'); // default [] empty 
+        $names2 = ['John', 'Jane', 'Joe'];
+
+        // Object types (contains multiple values)
+        // $obj = new Car(); // default null
+        
+        echo "<pre>";
+        echo $string;
+
+    ?>
+
 </body>
 </html>
+
