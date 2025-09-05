@@ -1,15 +1,3 @@
-<?php 
-
-// echo 'Hello World';
-// print 'Hello World' ;
-// echo('Hello World');
-// print('Hello World');
-
-// $name = 'John';
-// echo "Hello $name"; 
-// echo "Hello $name";  -->
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,12 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-    <?php echo 'Hello World'; ?>
-    <?= 'Hello World'?>
-    </h1>
+    <?php 
+        // Scalar types (contains a single value)
+        $string = 'John';
+        $int = 123;
+        $float = 2.5678;
+        $bool = true;
+ 
+        // Array types (contains multiple values)
+        $names = array('John', 'Jane', 'Joe');
+        $names2 = ['John', 'Jane', 'Joe'];
 
-    <?php $x = 10; $y = 20;  ?>
-    <p><?php echo $x + $y; ?></p>
+        // Object types (contains multiple values)
+        $obj = new Car();
+        
+
+    ?>
 </body>
 </html>
+
