@@ -8,18 +8,20 @@
 <body>
     <?php 
         // Scalar types (contains a single value)
-        $string = 'John';
-        $int = 123;
-        $float = 2.5678;
-        $bool = true;
+        $string = 'John'; // default  ""
+        $int = 123;       // default  0
+        $float = 2.5678;  // default  0
+        $bool = true;     // default  false
  
         // Array types (contains multiple values)
-        $names = array('John', 'Jane', 'Joe');
+        $names = array('John', 'Jane', 'Joe'); // default [] empty 
         $names2 = ['John', 'Jane', 'Joe'];
 
         // Object types (contains multiple values)
-        $obj = new Car();
+        // $obj = new Car(); // default null
         
+        echo "<pre>";
+        echo $string;
 
     ?>
 </body>
