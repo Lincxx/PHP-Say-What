@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <?php 
         // Scalar types (contains a single value)
         $string = 'John'; // default  ""
@@ -24,6 +25,7 @@
         echo $string;
 
     ?>
+
 </body>
 </html>
 
